@@ -4,7 +4,7 @@ from main import settings
 def main():
 	for command in settings.STARTING_CMDS:
 		exec(command)
-		print("")
+		print(settings.STARTING_MSG)
 
 
 if __name__ == '__main__':
