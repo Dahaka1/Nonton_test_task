@@ -1,5 +1,10 @@
+from main import settings
+
+
 def main():
-	pass
+	for command in settings.STARTING_CMDS:
+		exec(command)
+		print("")
 
 
 if __name__ == '__main__':
