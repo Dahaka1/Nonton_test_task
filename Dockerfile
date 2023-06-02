@@ -7,4 +7,4 @@ RUN pip install -r /usr/src/requirements.txt
 
 COPY . usr/src/nonton
 
-CMD ["python", "./usr/src/"]
+CMD ["python", "./usr/src/main.py"]
