@@ -9,7 +9,7 @@ It just supports package importable usage from Python console.
 No external packages using.
 
 # USAGE
-- Download project and start it by CMD Docker commands "*docker build -t nonton .*" -> "*docker run -it nonton*";
+- Download project and start it by CMD Docker commands "*docker build -t nonton _THIS_PAGE_LINK_*" -> "*docker run -it nonton*";
 - Set up configuration file in 'main' package if using script without Docker. You can use text- or bytes-based data structure;
 - Import exampling packages 'Product' and 'ProductsImpl', based on parent-class 'Data';
 - Then make an instance of class 'Product' with tho parameters such as "id" and "name";
